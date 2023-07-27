@@ -16,7 +16,7 @@ This is a simple user login and registration app for registering patients built 
 
 2. Install dependencies: npm install
 
-3.Change the URL in /routes/index.js at line 12,
+3.Change the URL in server.js in the root directory at line 12,
 mongodb+srv://dummyuser:<password>@cluster0.ftftqmv.mongodb.net/?retryWrites=true&w=majority
 
 using your own cluster usernames and passwords. You can easily create a new cluster from MongoDB Atlas and connect it.
