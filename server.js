@@ -9,7 +9,7 @@ var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
 var fileUpload = require('express-fileupload'); // Import the express-fileupload middleware
 
-mongoose.connect('mongodb+srv://dummyuser:dummyuser123@cluster0.ftftqmv.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://dummyuser:<password>@cluster0.ftftqmv.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }, (err) => {
